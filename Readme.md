@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Sergey Graschenko](https://up.htmlacademy.ru/htmlcss/34/user/1404645).
-* Наставник: `Неизвестно`.
+* Наставник: [Анастасия Полозова] (https://htmlacademy.ru/profile/id258631).
 
 ---
 
