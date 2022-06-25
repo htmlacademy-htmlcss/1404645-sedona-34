@@ -55,3 +55,34 @@ body {
 	color: #000000;
 	text-transform: uppercase;
 }
+
+.advantages-item {
+	text-align: center;
+}
+
+.advantages-title {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.search-hotel {
+	text-align: center;
+}
+
+.search-hotel-question {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.search-hotel-link {
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
