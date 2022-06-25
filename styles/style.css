@@ -36,11 +36,22 @@ body {
 	text-transform: capitalize;
 }
 
-/* .navigation-link.button {
-	font-size: 16px;
-	line-height: 20px;
-	color: #FFFFFF;
-	background-color: #756157;
-	text-transform: uppercase;
+.inner-header {
+	background-image: url(../images/main-index/background.jpeg);
+	color: #000000;
+	background-color: rgba(131, 179, 211, 0.12);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.introduce {
 	text-align: center;
-} */
+}
+
+.introduce-title {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
