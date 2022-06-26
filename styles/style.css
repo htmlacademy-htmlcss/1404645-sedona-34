@@ -44,6 +44,15 @@ body {
 	text-transform: capitalize;
 }
 
+.navigation-link.button {
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	background-color: #756157;
+	text-transform: uppercase;
+
+}
+
 .inner-header {
 	background-image: url(../images/main-index/background.jpeg);
 	color: #000000;
@@ -116,4 +125,25 @@ body {
 .subscribe-button {
 	color: #FFFFFF;
 	background-color: #82B3D3;
+}
+
+.footer-social-link {
+	color: #83B3D3;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.footer-contacts-phone {
+	font-size: 40px;
+	line-height: 40px;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.footer-htmlacademy-link {
+	color: #000000;
+	background-color: #FFFFFF;
+	text-align: center;
 }
