@@ -126,6 +126,8 @@ body {
 }
 
 .subscribe-button {
+	font-size: 20px;
+	line-height: 36px;
 	color: #FFFFFF;
 	background-color: #82B3D3;
 }
