@@ -23,6 +23,8 @@ body {
 }
 
 .button {
+	font-size: 20px;
+	line-height: 36px;
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
@@ -130,8 +132,6 @@ body {
 }
 
 .search-hotel-button {
-	font-size: 20px;
-	line-height: 36px;
 	color: #FFFFFF;
 	background-color: #756157;
 }
@@ -152,16 +152,17 @@ body {
 	text-transform: uppercase;
 }
 
+.subscribe-field {
+	font-size: 18px;
+	line-height: 21px
+}
+
 .subscribe-button {
-	font-size: 20px;
-	line-height: 36px;
 	color: #FFFFFF;
 	background-color: #82B3D3;
 }
 
 .footer-social-link {
-	color: #83B3D3;
-	background-color: #FFFFFF;
 	text-align: center;
 }
 
@@ -169,13 +170,11 @@ body {
 	font-size: 40px;
 	line-height: 40px;
 	color: #000000;
-	background-color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
+	background-color: #FFFFFF;
 }
 
 .footer-htmlacademy-link {
-	color: #000000;
-	background-color: #FFFFFF;
 	text-align: center;
 }
