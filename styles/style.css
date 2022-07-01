@@ -18,20 +18,14 @@ body {
 	font-family: "PT Sans", sans-serif;
 	font-size: 22px;
 	line-height: 26px;
-	background-color: #FFFFFF;
 	color: #000000;
+	background-color: #FFFFFF;
 }
 
 .button {
-	font-size: 16px;
-	line-height: 20px;
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
-}
-
-.main-header {
-	color: #000000;
 }
 
 .navigation-link {
@@ -44,12 +38,14 @@ body {
 	text-transform: capitalize;
 }
 
-.navigation-link.button {
+.want-to-come-link {
 	font-size: 16px;
 	line-height: 20px;
 	color: #FFFFFF;
-	background-color: #756157;
+	font-weight: 700;
+	text-align: center;
 	text-transform: uppercase;
+	background-color: #756157;
 }
 
 .inner-header {
@@ -61,8 +57,6 @@ body {
 }
 
 .introduce {
-	font-size: 22px;
-	line-height: 26px;
 	text-align: center;
 }
 
@@ -70,7 +64,6 @@ body {
 	font-size: 30px;
 	line-height: 36px;
 	font-weight: 700;
-	color: #000000;
 	text-transform: uppercase;
 }
 
@@ -81,7 +74,6 @@ body {
 .advantages-title {
 	font-size: 24px;
 	line-height: 28px;
-	color: #000000;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -102,14 +94,6 @@ body {
 
 .advantages-item-house .advantages-title {
 	color: #000000;
-}
-
-.advantages-item:nth-child(2n+4) {
-	background-color: rgba(131, 179, 211, 0.2);
-}
-
-.advantages-item:last-child {
-	background-color: rgba(131, 179, 211, 0.12);
 }
 
 .search-hotel {
