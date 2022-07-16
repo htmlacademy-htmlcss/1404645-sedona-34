@@ -102,6 +102,11 @@ body {
 	background-size: 100% auto;
 }
 
+.inner-header-logo {
+	display: block;
+	margin: 0 auto;
+}
+
 .introduce {
 	text-align: center;
 }
