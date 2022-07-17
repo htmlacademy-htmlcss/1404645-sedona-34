@@ -230,15 +230,12 @@ body {
 .footer-social {
 	width: 142px;
 	margin-left: 70px;
+	text-align: center;
 }
 
 .footer-social-list {
 	margin: 0;
 	padding: 0;
-}
-
-.footer-social-link {
-	text-align: center;
 }
 
 .footer-contacts {
@@ -258,8 +255,5 @@ body {
 .footer-htmlacademy {
 	width: 115px;
 	margin-right: 70px;
-}
-
-.footer-htmlacademy-link {
 	text-align: center;
 }
