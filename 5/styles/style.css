@@ -1,0 +1,259 @@
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/ptsans-400.woff2) format(woff2);
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/ptsans-700.woff2) format(woff2);
+	font-display: swap;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 22px;
+	line-height: 26px;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.page-container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.button {
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.main-header {
+	display: flex;
+}
+
+.logo {
+	margin-left: 70px;
+}
+
+.navigation {
+	display: flex;
+	flex-grow: 1;
+	margin-left: 30px;
+}
+
+.navigation-list {
+	margin: 0;
+	padding: 0;
+	width: 390px;
+}
+
+.navigation-user {
+	width: 265px;
+	margin-right: 70px;
+	margin-left: auto;
+}
+
+.navigation-link {
+	font-size: 20px;
+	line-height: 26px;
+	color: inherit;
+	background-color: #FFFFFF;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.want-to-come-link {
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #756157;
+}
+
+.main-container {
+	flex-grow: 1;
+}
+
+.inner-header {
+	background-image: url(../images/main-index/background.jpeg);
+	color: #000000;
+	background-color: rgba(131, 179, 211, 0.5);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.inner-header-logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.introduce {
+	text-align: center;
+}
+
+.introduce-title {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.advantages-list {
+	margin: 0;
+	padding: 0;
+}
+
+.advantages-item {
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	width: 400px;
+}
+
+.advantages-title {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.advantage-city {
+	color: #FFFFFF;
+	background-color: #82B3D3;
+}
+
+.advantages-city-list {
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+}
+
+.advantage-house {
+	color: #333333;
+	background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantage-food {
+	color: #333333;
+}
+
+.advantage-souvenirs {
+	color: #333333;
+	background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantage-bridge {
+	color: #FFFFFF;
+	background-color: #82B3D3;
+}
+
+.advantage-area {
+	color: #333333;
+	background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantage-road {
+	color: #333333;
+	background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantage-tourists {
+	color: #333333;
+	background-color: rgba(131, 179, 211, 0.12);
+}
+
+.search-hotel {
+	text-align: center;
+}
+
+.search-hotel-question {
+	font-size: 30px;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.search-hotel-button {
+	color: #FFFFFF;
+	background-color: #756157;
+}
+
+.subscribe {
+	color: #FFFFFF;
+	text-align: center;
+	background-color: rgba(131, 179, 211, 0.5);
+	background-image: url(../images/main-index/background-blurred.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.subscribe-title {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.subscribe-field {
+	font-size: 18px;
+	line-height: 21px
+}
+
+.subscribe-button {
+	color: #FFFFFF;
+	background-color: #82B3D3;
+}
+
+.main-footer {
+	display: flex;
+}
+
+.footer-social {
+	width: 142px;
+	margin-left: 70px;
+	text-align: center;
+}
+
+.footer-social-list {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-contacts {
+	width: 720px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer-contacts-phone {
+	font-size: 40px;
+	line-height: 40px;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+}
+
+.footer-htmlacademy {
+	width: 115px;
+	margin-right: 70px;
+	text-align: center;
+}
