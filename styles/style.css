@@ -118,6 +118,11 @@ body {
 	text-transform: uppercase;
 }
 
+.advantages-list {
+	margin: 0;
+	padding: 0;
+}
+
 .advantages-item {
 	font-size: 18px;
 	line-height: 21px;
