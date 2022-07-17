@@ -223,7 +223,27 @@ body {
 	background-color: #82B3D3;
 }
 
+.main-footer {
+	display: flex;
+}
+
+.footer-social {
+	width: 142px;
+	margin-left: 70px;
+}
+
+.footer-social-list {
+	margin: 0;
+	padding: 0;
+}
+
 .footer-social-link {
+	text-align: center;
+}
+
+.footer-contacts {
+	width: 720px;
+	margin: 0 auto;
 	text-align: center;
 }
 
@@ -231,9 +251,13 @@ body {
 	font-size: 40px;
 	line-height: 40px;
 	color: #000000;
-	text-align: center;
 	text-transform: uppercase;
 	background-color: #FFFFFF;
+}
+
+.footer-htmlacademy {
+	width: 115px;
+	margin-right: 70px;
 }
 
 .footer-htmlacademy-link {
