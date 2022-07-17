@@ -127,6 +127,7 @@ body {
 	font-size: 18px;
 	line-height: 21px;
 	text-align: center;
+	width: 400px;
 }
 
 .advantages-title {
@@ -139,6 +140,12 @@ body {
 .advantage-city {
 	color: #FFFFFF;
 	background-color: #82B3D3;
+}
+
+.advantages-city-list {
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
 }
 
 .advantage-house {
