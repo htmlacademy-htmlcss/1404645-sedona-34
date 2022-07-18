@@ -14,12 +14,25 @@
 	font-display: swap;
 }
 
+html {
+	height: 100%;
+}
+
 body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 22px;
 	line-height: 26px;
 	color: #000000;
 	background-color: #FFFFFF;
+}
+
+.page-container {
+	width: 1200px;
+	margin: 0 auto;
 }
 
 .button {
@@ -29,6 +42,32 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	cursor: pointer;
+}
+
+.main-header {
+	display: flex;
+}
+
+.logo {
+	margin-left: 70px;
+}
+
+.navigation {
+	display: flex;
+	flex-grow: 1;
+	margin-left: 30px;
+}
+
+.navigation-list {
+	margin: 0;
+	padding: 0;
+	width: 390px;
+}
+
+.navigation-user {
+	width: 265px;
+	margin-right: 70px;
+	margin-left: auto;
 }
 
 .navigation-link {
@@ -51,12 +90,21 @@ body {
 	background-color: #756157;
 }
 
+.main-container {
+	flex-grow: 1;
+}
+
 .inner-header {
 	background-image: url(../images/main-index/background.jpeg);
 	color: #000000;
 	background-color: rgba(131, 179, 211, 0.5);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+}
+
+.inner-header-logo {
+	display: block;
+	margin: 0 auto;
 }
 
 .introduce {
@@ -70,10 +118,16 @@ body {
 	text-transform: uppercase;
 }
 
+.advantages-list {
+	margin: 0;
+	padding: 0;
+}
+
 .advantages-item {
 	font-size: 18px;
 	line-height: 21px;
 	text-align: center;
+	width: 400px;
 }
 
 .advantages-title {
@@ -86,6 +140,12 @@ body {
 .advantage-city {
 	color: #FFFFFF;
 	background-color: #82B3D3;
+}
+
+.advantages-city-list {
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
 }
 
 .advantage-house {
@@ -163,7 +223,24 @@ body {
 	background-color: #82B3D3;
 }
 
-.footer-social-link {
+.main-footer {
+	display: flex;
+}
+
+.footer-social {
+	width: 142px;
+	margin-left: 70px;
+	text-align: center;
+}
+
+.footer-social-list {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-contacts {
+	width: 720px;
+	margin: 0 auto;
 	text-align: center;
 }
 
@@ -171,11 +248,12 @@ body {
 	font-size: 40px;
 	line-height: 40px;
 	color: #000000;
-	text-align: center;
 	text-transform: uppercase;
 	background-color: #FFFFFF;
 }
 
-.footer-htmlacademy-link {
+.footer-htmlacademy {
+	width: 115px;
+	margin-right: 70px;
 	text-align: center;
 }
